@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="2dp"
+    android:background="#fafafa">
+    <TextView
+        android:id="@+id/tv_order_product_name"
+        style="@style/FontStyleXL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Rainbow's End Day Pass" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            style="@style/FontStyleGreyM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:text="Product ID" />
+
+        <TextView
+            android:id="@+id/tv_order_product_id"
+            style="@style/FontStyleL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="PD0001" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            style="@style/FontStyleGreyM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:text="Supplier Number" />
+
+        <!-- 第二个 TextView，放在右边 -->
+        <TextView
+            android:id="@+id/tv_order_supplier_id"
+            style="@style/FontStyleL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="A0J326H" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <!-- 第一个 TextView，占据剩余空间 -->
+        <TextView
+            style="@style/FontStyleGreyM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:text="Booking Reference" />
+
+        <!-- 第二个 TextView，放在右边 -->
+        <TextView
+            android:id="@+id/tv_order_book_ref"
+            style="@style/FontStyleL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="MDDB24X1235H14" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D5DEE7" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <!-- 第一个 TextView，占据剩余空间 -->
+        <TextView
+            style="@style/FontStyleGreyM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:text="Invoice Number" />
+
+        <!-- 第二个 TextView，放在右边 -->
+        <TextView
+            android:id="@+id/tv_order_invoice_num"
+            style="@style/FontStyleL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="616368065" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <!-- 第一个 TextView，占据剩余空间 -->
+        <TextView
+            style="@style/FontStyleGreyM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:text="Qty." />
+
+        <!-- 第二个 TextView，放在右边 -->
+        <TextView
+            android:id="@+id/tv_order_qty_num"
+            style="@style/FontStyleL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="1" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D5DEE7" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <!-- 第一个 TextView，占据剩余空间 -->
+        <TextView
+            style="@style/FontStyleGreyM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:text="Price" />
+
+        <!-- 第二个 TextView，放在右边 -->
+        <TextView
+            android:id="@+id/tv_book_price"
+            style="@style/FontStyleL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="$59" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            style="@style/FontStyleGreyM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:text="Total" />
+
+        <!-- 第二个 TextView，放在右边 -->
+        <TextView
+            android:id="@+id/tv_booking_detail_book_id"
+            style="@style/FontStyleL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="$59" />
+    </LinearLayout>
+</LinearLayout>

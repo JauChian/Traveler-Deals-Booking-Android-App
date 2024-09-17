@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_profile"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllProduct">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:elevation="4dp"
+        android:padding="10dp"
+        android:gravity="center"
+        style="@style/FontStyleXL"
+        android:text="All Products" />
+
+    <TextView
+        android:id="@+id/btn_add_product"
+        style="@style/FontStyleWhiteM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/background_btn_small"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="+ Add Product" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/r_view_all_product"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>
