@@ -98,7 +98,7 @@ bookings/{bookingId} {
 
 ## Screenshots
 
-```
+
 ![Screenshot](traveller-0.png)
 ![Screenshot](traveller-1.png)
 
@@ -108,14 +108,6 @@ bookings/{bookingId} {
 - Unauthenticated users may browse read-only content; **booking requires login**.
 - If you use **Firestore**, prefer collection-level rules; if **Realtime DB**, design top-level node rules accordingly.
 - Consider image caching (Glide) and pagination for large lists.
-
----
-
-## Roadmap (optional)
-- Favorites / Wishlist
-- Payments integration (Stripe/PayPal)
-- Supplier analytics (views, conversions)
-- Offline cache for recent deals
 
 ---
 
